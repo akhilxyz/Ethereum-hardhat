@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/user/blockchain/demo3/contracts/Greeter.sol": {
-      "lastModificationDate": 1631610774730,
-      "contentHash": "b4d7f784a3ef1ab51fbd9504af3dc3bd",
+      "lastModificationDate": 1631679704266,
+      "contentHash": "22c0dbb612e1541ccd75484ea7ae88ad",
       "sourceName": "contracts/Greeter.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -69,6 +69,40 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "/home/user/blockchain/demo3/contracts/Lottery.sol": {
+      "lastModificationDate": 1631696658572,
+      "contentHash": "677ecf8756c22d84a5e742d2f016166e",
+      "sourceName": "contracts/Lottery.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Lottery"
       ]
     }
   }

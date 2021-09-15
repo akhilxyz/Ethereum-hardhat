@@ -18,4 +18,10 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 module.exports = {
   solidity: "0.8.4",
+  networks : {
+    rinkeby : {
+      url : "https://speedy-nodes-nyc.moralis.io/35781d7bc9e401e1fa975f78/eth/rinkeby",
+      accounts : ["144e9fad3c58582f920889d822436525facc11c74e16e8124a62ce42d532800e"]
+    }
+  }
 };
