@@ -26,7 +26,7 @@ contract Lottery{
 
     // this function will takes the gas fees from the players
     function enter() public payable{
-        require(msg.value == 1 ether,"Lottery: enter amount value should be 11");
+        require(msg.value == 1 ether, "Lottery: enter amount value should be 1 ether");
         players.push(msg.sender);
     }
 
@@ -36,8 +36,7 @@ contract Lottery{
         return uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, players)));
         // convert hash to integer
         // players is an array of entrants
-        }
-
+    }
     // this function will pick the winner from random number
     function pickWinner() public restricted{
         uint index = random() % players.length;

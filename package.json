@@ -17,6 +17,7 @@
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "chai": "^4.3.4",
     "ethers": "^5.4.6",
-    "mocha": "^9.1.1"
+    "mocha": "^9.1.1",
+    "web3": "^1.5.2"
   }
 }
