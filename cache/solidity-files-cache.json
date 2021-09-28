@@ -1,42 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/user/blockchain/demo3/contracts/Greeter.sol": {
-      "lastModificationDate": 1631679704266,
-      "contentHash": "22c0dbb612e1541ccd75484ea7ae88ad",
-      "sourceName": "contracts/Greeter.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Greeter"
-      ]
-    },
     "/home/user/blockchain/demo3/node_modules/hardhat/console.sol": {
       "lastModificationDate": 1631610644125,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
@@ -103,6 +67,75 @@
       ],
       "artifacts": [
         "Lottery"
+      ]
+    },
+    "/home/user/blockchain/demo3/contracts/Campaign.sol": {
+      "lastModificationDate": 1632314458729,
+      "contentHash": "eff78b1285063bb45fde5537bad21e4f",
+      "sourceName": "contracts/Campaign.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Campaign",
+        "CampaignFactory"
+      ]
+    },
+    "/home/user/blockchain/demo3/contracts/CampaignTestCase.sol": {
+      "lastModificationDate": 1631873534891,
+      "contentHash": "e09e2825857447f9703219b21b1fc609",
+      "sourceName": "contracts/CampaignTestCase.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CampaignTestCase"
       ]
     }
   }

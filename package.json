@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "compile" : "npx hardhat compile",
+    "deploy-campaign" : "npx hardhat run scripts/campaign-script.js --network rinkeby",
+    "deploy-lottery" : "npx hardhat run scripts/lottery-script.js --network rinkeby"
   },
   "author": "akhil",
   "license": "ISC",
